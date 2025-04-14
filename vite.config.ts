@@ -11,6 +11,7 @@ export default defineConfig({
     ],
   },
   server: {
-    port: 3000,
-  },
+    host: '0.0.0.0', // Mở kết nối cho tất cả thiết bị
+    port: 3000, // Chọn cổng bất kỳ
+ },
 })

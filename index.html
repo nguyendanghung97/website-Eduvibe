@@ -388,12 +388,12 @@
     </header>
     <!-- responsive -->
     <div id="bg-menu"
-      class='invisible handle-menu fixed top-0 h-full bg-black transition-all duration-400 ease-out w-full z-20 opacity-0 '>
+      class='invisible handle-menu fixed top-0 h-full bg-black transition-all duration-400 ease-out w-full z-40 opacity-0 '>
     </div>
     <div id="menu"
-        class='invisible w-80 h-screen overflow-y-auto bg-white z-40 fixed top-0 text-black opacity-0 transition-all duration-500 ease-out flex justify-between flex-col -left-32'>
+        class='invisible w-80 bg-white z-50 fixed top-0 text-black opacity-0 transition-all duration-500 ease-out flex justify-between flex-col -left-32'>
       <div class="group">
-        <div class="px-5 py-4 flex items-center justify-between">
+        <div class="px-5 py-4 h-20 flex items-center justify-between">
           <a href="https://eduvibe.devsvibe.com/main/">
             <img class="my-2.5 w-36 h-9 object-contain" src="https://eduvibe.devsvibe.com/main/wp-content/uploads/2023/01/logo-2.png" alt="">
           </a>
@@ -401,7 +401,7 @@
             <i class="ri-close-line"></i>
           </div>
         </div>
-        <div class="font-medium flex flex-col text-slate-700 px-5 py-3.5 border-solid border-t border-slate-200">
+        <div class="font-medium flex flex-col text-slate-700 px-5 py-3.5 border-solid border-t border-slate-200 h-[calc(100dvh-5rem)] overflow-y-auto overscroll-contain">
           <!-- Home -->
           <div class="container-item-category">
             <a href="" id="home" class="handle-collapse flex items-center justify-between py-2 leading-6 transition-all duration-300 hover:text-indigo-500">
@@ -1740,7 +1740,6 @@
     }
     Gsap('.handle-collapse');
     Gsap('.handle-collapse-child');
-
   </script>
   <!-- List product -->
   <script>
