@@ -100,3 +100,4 @@ document.querySelectorAll('.handle-collapse').forEach((e: any) => e.addEventList
     .to(e.querySelector('.la-angle-down'), { transform: 'rotate(0deg)'}, '0');
 
 }));
+
